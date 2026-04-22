@@ -466,6 +466,7 @@ a:hover {
   margin-bottom: var(--space-md);
   position: relative;
   padding-left: var(--space-lg);
+  color: #ffeb3b;
 }
 
 .testimonial-text::before {
