@@ -465,6 +465,11 @@ a:hover {
    height: 24px;
 }
 
+.value-icon {
+   width: 48px;
+   height: 48px;
+}
+
 .card-title {
   font-size: 1.5rem;
   margin-bottom: var(--space-sm);
