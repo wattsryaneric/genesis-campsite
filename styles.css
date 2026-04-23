@@ -454,10 +454,15 @@ a:hover {
 }
 
 .card-icon {
-  width: 64px;
-  height: 64px;
-  margin-bottom: var(--space-md);
-  fill: var(--accent-gold);
+   width: 64px;
+   height: 64px;
+   margin-bottom: var(--space-md);
+   fill: var(--accent-gold);
+}
+
+.contact-icon {
+   width: 24px;
+   height: 24px;
 }
 
 .card-title {
@@ -596,14 +601,15 @@ a:hover {
 }
 
 .form-input,
-.form-textarea {
-  width: 100%;
-  padding: var(--space-sm);
-  border: 1px solid var(--light-gray);
-  border-radius: var(--radius-md);
-  font-family: var(--font-secondary);
-  font-size: 1rem;
-  transition: border-color var(--transition-fast);
+.form-textarea,
+.form-select {
+   width: 100%;
+   padding: var(--space-sm);
+   border: 1px solid var(--light-gray);
+   border-radius: var(--radius-md);
+   font-family: var(--font-secondary);
+   font-size: 1rem;
+   transition: border-color var(--transition-fast);
 }
 
 .form-input:focus,
